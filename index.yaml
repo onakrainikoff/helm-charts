@@ -11,4 +11,23 @@ entries:
     urls:
     - https://github.com/onakrainikoff/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-11T10:29:35.368639819Z"
+  tg-iamgroot-bot:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-03-11T13:31:49.027245785Z"
+    description: Helm chart for "I am Groot" Telegram Bot
+    digest: db7d713bf6c34a85cf6c33d35cf1ec43d84c4005f5c2cdcfbb1289c7aea164a0
+    keywords:
+    - bot
+    - telegram
+    maintainers:
+    - email: onakrainikoff@gmail.com
+      name: onakrainikoff
+    name: tg-iamgroot-bot
+    sources:
+    - https://github.com/onakrainikoff/tg-iamgroot-bot
+    type: application
+    urls:
+    - https://github.com/onakrainikoff/helm-charts/releases/download/tg-iamgroot-bot-1.0.0/tg-iamgroot-bot-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-03-11T13:31:49.027252985Z"
