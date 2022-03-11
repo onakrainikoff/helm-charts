@@ -6,7 +6,7 @@ bot:
 replicaCount: 1
 
 image:
-  repository: ghcr.io/onakrainikoff/tg-iamgroot-bot
+  repository: ghcr.io/onakrainikoff/tg-iamgroot-bot-project
   pullPolicy: IfNotPresent
   tag: ""
 
