@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## onakrainikoff - Helm Charts Repository
 
-You can use the [editor on GitHub](https://github.com/onakrainikoff/helm-charts/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Adding the chart Repository
+```
+helm repo add onakrainikoff https://onakrainikoff.github.io/helm-charts
+helm repo update
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Charts list
+You can view the full list of charts and versions [here](https://github.com/onakrainikoff/helm-charts/releases)
 
-### Jekyll Themes
+### Contributing
+Feel free to fork our repo and create a pull request with any new features or bug fixes.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/onakrainikoff/helm-charts/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Process to add a chart to the repository
+1. Create a branch or fork for your new chart
+2. Initialize new chart in the charts directory with helm create mychart or by copying in your work from outside
+3. After chart development is done, run (at minimum) helm lint mychart/ to validate yaml and templates
+4. Don’t forget to bump your chart version (if needed)
+5. Create a pull request with the new chart or updates
+6. Once the PR is approved, the automation will publish the chart to our repository
