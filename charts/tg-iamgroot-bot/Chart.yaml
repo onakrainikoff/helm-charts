@@ -1,0 +1,14 @@
+apiVersion: v2
+name: tg-iamgroot-bot
+description: Helm chart for "I am Groot" Telegram Bot
+sources:
+    - https://github.com/onakrainikoff/tg-iamgroot-bot
+maintainers:
+    - name: onakrainikoff
+      email: onakrainikoff@gmail.com
+keywords:
+    - bot
+    - telegram
+type: application
+version: 1.0.0
+appVersion: "1.0"

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{  .Release.Namespace }}
+data:
+  BOT_THREADS_COUNT: {{ .Values.bot.threads_count | quote }}
