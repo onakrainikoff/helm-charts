@@ -14,6 +14,24 @@ entries:
   tg-iamgroot-bot:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-03-11T21:31:03.386701634Z"
+    description: Helm chart for "I am Groot" Telegram Bot
+    digest: f1f358414ccae2492da7fcf6d7ce63f28aaf3459f318f3e2547b8c3a0f7f649c
+    keywords:
+    - bot
+    - telegram
+    maintainers:
+    - email: onakrainikoff@gmail.com
+      name: onakrainikoff
+    name: tg-iamgroot-bot
+    sources:
+    - https://github.com/onakrainikoff/tg-iamgroot-bot-project
+    type: application
+    urls:
+    - https://github.com/onakrainikoff/helm-charts/releases/download/tg-iamgroot-bot-1.0.1/tg-iamgroot-bot-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-03-11T13:31:49.027245785Z"
     description: Helm chart for "I am Groot" Telegram Bot
     digest: db7d713bf6c34a85cf6c33d35cf1ec43d84c4005f5c2cdcfbb1289c7aea164a0
@@ -30,4 +48,4 @@ entries:
     urls:
     - https://github.com/onakrainikoff/helm-charts/releases/download/tg-iamgroot-bot-1.0.0/tg-iamgroot-bot-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-11T13:31:49.027252985Z"
+generated: "2022-03-11T21:31:03.386715034Z"
